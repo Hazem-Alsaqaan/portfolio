@@ -1,0 +1,158 @@
+header {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+    position: fixed;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+/* start header logo */
+
+.header-logo div.text-logo {
+    font-family: 'Kalam', cursive;
+    padding: 5px;
+}
+.text-logo .entities {
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+}
+.text-logo .hazem{
+    font-size: 30px;
+    position: relative;
+    color: var(--main-color);
+}
+.text-logo .iam{
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    transform: translateX(-50%);
+    color: var(--main-color);
+    cursor: pointer;
+}
+/* end header logo */
+/* start header nav */
+.pages-nav {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pages-nav li {
+    margin: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    transition-duration: .6s;
+    cursor: pointer;
+    position: relative;
+}
+
+.pages-nav li::before {
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 0%;
+    width: 2px;
+    background-color: var(--second-color);
+}
+.pages-nav li::after {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 0%;
+    width: 2px;
+    background-color: var(--second-color);
+}
+.pages-nav li:hover,
+.pages-nav li.activate{
+    color: var(--main-color);
+}
+.pages-nav li:hover::after,.pages-nav li:hover::before {
+    animation-name: up-down;
+    animation-direction: reverse;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+
+}
+.header a {
+    text-decoration: none;
+}
+
+/* end header nav */
+.github {
+    font-family: 'Kalam', cursive;
+    margin: 0px;
+    color: var(--second-color);
+    cursor: pointer;
+}
+.github:hover {
+    color: var(--main-color);
+    transition-duration: .6s;
+}
+.bar {
+    color: var(--main-color);
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    transition-duration: .6s;
+}
+.bar:hover {
+    color: white;
+}
+@media (max-width: 771px){
+    .pages-nav {
+        display: none;
+    }
+    .bar {
+        display: block;
+    }
+}
+@media(max-width: 350px){
+    .text-logo .entities{
+        font-size: 20px;
+    }
+    .text-logo .hazem{
+        font-size: 16px;
+    }
+    .text-logo .iam{
+        font-size: 14px;
+    }
+    .github {
+        font-size: 16px;
+    }
+    .bar{
+        font-size: 16px;
+    }
+}
+.pages-nav.show {
+    display: block;
+    position: absolute;
+    background-color: #20232abb;
+    left: 0px;
+    top: 100%;
+    width: 100%;
+}
+
+@keyframes up-down {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
