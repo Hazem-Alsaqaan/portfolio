@@ -22,7 +22,7 @@ const Portfolio = ()=>{
                                     </div>
                                     <div className="box-bt">
                                         <a target="blank" href={oneItem.codeUrl}><button>watch code</button></a>
-                                        <a target="blank" href={oneItem.webSitUrl}><button>vist project</button></a>
+                                        <a target="blank" href={oneItem.webSitUrl}><button>visit project</button></a>
                                     </div>
                                 </div>
                         )})
