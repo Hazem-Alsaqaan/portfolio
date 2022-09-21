@@ -152,7 +152,7 @@ header {
 .pages-nav.show {
     display: block;
     position: absolute;
-    background-color: #20232abb;
+    background-color: white;
     left: 0px;
     top: 100%;
     width: 100%;
