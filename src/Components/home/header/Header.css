@@ -5,13 +5,14 @@ header {
     top: 0px;
     z-index: 5;
     position: fixed;
+    background-color: var(--light);
+    box-shadow: 0px 0px 8px #ccc;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border-bottom: 1px solid #333;
 }
 /* start header logo */
 
@@ -22,12 +23,12 @@ header {
 .text-logo .entities {
     font-size: 40px;
     margin: 5px;
-    color: white;
+    color: var(--blue-light);
 }
 .text-logo .hazem{
     font-size: 30px;
     position: relative;
-    color: var(--main-color);
+    color: var(--second-color);
 }
 .text-logo .iam{
     font-size: 20px;
@@ -35,7 +36,7 @@ header {
     left: 50%;
     top: -8px;
     transform: translateX(-50%);
-    color: var(--main-color);
+    color: var(--second-color);
     cursor: pointer;
 }
 /* end header logo */
@@ -54,7 +55,8 @@ header {
     padding: 5px;
     text-transform: capitalize;
     font-size: 18px;
-    color: white;
+    font-weight: bold;
+    color: var(--second-color);
     transition-duration: .6s;
     cursor: pointer;
     position: relative;
@@ -63,7 +65,7 @@ header {
 .pages-nav li::before {
     content: " ";
     position: absolute;
-    left: 0px;
+    left: -5px;
     top: 0px;
     height: 0%;
     width: 2px;
@@ -72,7 +74,7 @@ header {
 .pages-nav li::after {
     content: " ";
     position: absolute;
-    right: 0px;
+    right: -5px;
     bottom: 0px;
     height: 0%;
     width: 2px;
@@ -80,7 +82,9 @@ header {
 }
 .pages-nav li:hover,
 .pages-nav li.activate{
-    color: var(--main-color);
+    color: white;
+    background-color: var(--second-color);
+    border-radius: 10px 10px;
 }
 .pages-nav li:hover::after,.pages-nav li:hover::before {
     animation-name: up-down;
@@ -96,13 +100,19 @@ header {
 /* end header nav */
 .github {
     font-family: 'Kalam', cursive;
-    margin: 0px;
-    color: var(--second-color);
+    margin: 5px;
+    border: 2px solid var(--second-color);
+    background-color: var(--second-color);
+    color: white;
     cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
 }
 .github:hover {
-    color: var(--main-color);
     transition-duration: .6s;
+    color: var(--second-color);
+    background-color: white;
+    border: 2px solid var(--second-color);
 }
 .bar {
     color: var(--main-color);
@@ -112,7 +122,7 @@ header {
     transition-duration: .6s;
 }
 .bar:hover {
-    color: white;
+    color: var(--second-color);
 }
 @media (max-width: 771px){
     .pages-nav {

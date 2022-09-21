@@ -9,8 +9,11 @@ html {
 }
 :root{
   --dark-background: #20232a;
-  --main-color: #14a6cf;
-  --second-color: rgb(15 116 143 / 70%);
+  --main-color: #171a53;
+  --second-color: #1c2fc5;
+  --blue-light: #83aeff;
+  --light: #f9f9f9;
+  --gray: #a1a1a1;
 }
 body {
   margin: 0;

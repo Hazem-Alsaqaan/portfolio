@@ -20,15 +20,16 @@
     height: 100px;
     background-color: rgba(238, 238, 238, 0);
     border-radius: 50%;
-    border: 3px solid white;
     margin: 30px;
     position: relative;
-    color: #14a6cf;
+    color: var(--second-color);
+    font-weight: bold;
     font-size: 16px;
     font-family: 'Kalam', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 12px #ccc;
     overflow: hidden;
 }
 .static::after {
@@ -36,11 +37,9 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 0, 0, 0);
-    border-bottom: 25px solid var(--main-color);
+    background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
-    border-bottom: 25px solid var(--main-color);
     animation-name: moon;
     animation-duration: 2s;
     animation-direction: alternate-reverse;
@@ -49,10 +48,10 @@
 
 @keyframes moon {
     from{
-        border-bottom: 25px solid var(--main-color);
+        border-bottom: 25px solid var(--blue-light);
     }
     to{
-        border-bottom: 15px solid var(--main-color);
+        border-bottom: 15px solid var(--blue-light);
     }
 }
 
@@ -62,7 +61,8 @@
     top: 50%;
     transform: translateX(-50%);
     z-index: 2;
-    background-color: var(--main-color);
+    background-color: var(--second-color);
+    color: white;
     border-radius: 5px 5px;
     border: none;
     padding: 5px 10px;
@@ -72,7 +72,7 @@
 }
 .btn-show svg {
     position: absolute;
-    color: white;
+    color: var(--blue-light);
     left: 50%;
     transform: translateX(-50%);
     bottom: -20px;
@@ -95,14 +95,16 @@
 .another-skills li {
     padding: 5px;
     margin: 10px;
-    color: var(--main-color);
+    color: var(--second-color);
+    font-weight: bold;
     cursor: pointer;
 }
-.another-skills li:hover {
-    color: white;
-}
+/* .another-skills li:hover {
+    color: ;
+} */
 .adobe {
-    color: var(--main-color);
+    color: var(--second-color);
+    font-weight: bold;
     text-align: center;
     opacity: 0%;
     transition-duration: 1.2s;

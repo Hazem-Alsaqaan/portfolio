@@ -29,8 +29,8 @@
     height: 100%;
     top: 0%;
     left: 0%;
-    background-color: rgba(0, 0, 0, 0.918);
-    border-right: 8px ridge rgb(83, 83, 83);
+    background-color: rgba(0, 0, 0, 0.575);
+    border-right: 5px ridge var(--second-color);
 }
 .box-img:hover::after{
     width: 0%;
@@ -60,15 +60,17 @@
     text-decoration: none;
 }
 .box-bt button{
-    background-color: var(--main-color);
-    border-radius: 5px 5px;
-    border: none;
+    background-color: var(--second-color);
+    color: white;
+    border-radius: 8px 8px;
+    border: 2px solid var(--second-color);
     padding: 5px 10px;
     cursor: pointer;
-    transition-duration: .8s;
+    transition-duration: .3s;
 }
 .box-bt button:hover{
-    color: white;
+    color: var(--second-color);
+    background-color: white;
 }
 
 @keyframes scrolling {

@@ -6,7 +6,7 @@
     align-items: center;
 }
 .our-contact h4{
-    color: var(--main-color);
+    color: var(--second-color);
 }
 .box-contact{
     margin: 10px;
@@ -17,8 +17,8 @@
 }
 
  .social-background {
-    background-color: rgb(44, 44, 44);
-    color: #ccc;
+    background-color: var(--main-color);
+    color: white;
     cursor: pointer;
     padding: 10px;
     margin: 5px;
