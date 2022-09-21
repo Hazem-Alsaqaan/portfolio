@@ -2,6 +2,7 @@ import NOTFLIX from "./img/NOTFLIX-.png"
 import third from "./img/third.png"
 import agenda from "./img/agenda.png"
 import memoryGame from "./img/memory-game.png"
+import bookStore from "./img/bookstore.png"
 
 
 const projects = [
@@ -14,20 +15,27 @@ const projects = [
     },
     {
         id: 2,
+        codeUrl: "https://github.com/Hazem-Alsaqaan/bookstore",
+        webSitUrl: " https://hazem-alsaqaan.github.io/bookstore/",
+        Poster: bookStore,
+        projectTitle: "BookStore"
+    },
+    {
+        id: 3,
         codeUrl: "https://github.com/Hazem-Alsaqaan/third-test-",
         webSitUrl: "https://hazem-alsaqaan.github.io/third-test-/",
         Poster: third,
         projectTitle: "Gallery"
     },
     {
-        id: 3,
+        id: 4,
         codeUrl: "https://github.com/Hazem-Alsaqaan/agenda",
         webSitUrl: "https://hazem-alsaqaan.github.io/agenda/",
         Poster: agenda,
         projectTitle: "الأجندة القضائية"
     },
     {
-        id: 4,
+        id: 5,
         codeUrl: "https://codepen.io/hazem-alsaqaan/pen/OJvPzZO",
         webSitUrl: "https://codepen.io/hazem-alsaqaan/full/OJvPzZO",
         Poster: memoryGame,
