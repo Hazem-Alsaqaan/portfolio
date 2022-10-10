@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c06aa80b.css",
-    "main.js": "/portfolio/static/js/main.8d431860.js",
+    "main.css": "/portfolio/static/css/main.76542ee2.css",
+    "main.js": "/portfolio/static/js/main.b5a710ba.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/third.png": "/portfolio/static/media/third.61754cac9dd7406c5b77.png",
     "static/media/NOTFLIX-.png": "/portfolio/static/media/NOTFLIX-.01dbe7391cba67d4f717.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.87abdd1fb5d068742fc7.png",
     "static/media/bookstore.png": "/portfolio/static/media/bookstore.4ca0105d4237cbdd15fc.png",
     "static/media/memory-game.png": "/portfolio/static/media/memory-game.83bf4f3c059c0859f13a.png",
     "static/media/agenda.png": "/portfolio/static/media/agenda.716eaed995a83d4107f0.png",
     "index.html": "/portfolio/index.html",
-    "main.c06aa80b.css.map": "/portfolio/static/css/main.c06aa80b.css.map",
-    "main.8d431860.js.map": "/portfolio/static/js/main.8d431860.js.map",
+    "main.76542ee2.css.map": "/portfolio/static/css/main.76542ee2.css.map",
+    "main.b5a710ba.js.map": "/portfolio/static/js/main.b5a710ba.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06aa80b.css",
-    "static/js/main.8d431860.js"
+    "static/css/main.76542ee2.css",
+    "static/js/main.b5a710ba.js"
   ]
 }
