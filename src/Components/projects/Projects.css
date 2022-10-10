@@ -46,7 +46,7 @@
 }
 
 .box-project h1{
-    color: white;
+    color: var(--second-color);
     text-align: center;
     margin: 10px;
     font-size: 16px;
