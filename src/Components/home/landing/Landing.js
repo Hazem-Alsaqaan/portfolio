@@ -20,7 +20,7 @@ const Landing = ()=>{
                                     I like positive people.
                                     </p>
                             </div>
-                            <a href="https://docs.google.com/document/d/1bvaVCmixHax_LEDTyaFX8Cv1Y4mR0FSdpwHET5QFhwQ/edit" target="post">
+                            <a href="https://drive.google.com/file/d/1OBtrr0iMiE0sze2BVOb8OPvHTXGhSptw/view?usp=sharing" target="post">
                                 <button className="btn-download">Download CV <FontAwesomeIcon icon={faArrowDown}/></button>
                                 </a>
                         </div>
