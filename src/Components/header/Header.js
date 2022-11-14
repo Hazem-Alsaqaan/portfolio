@@ -2,7 +2,6 @@ import React, { Fragment, useState } from "react";
 import "./Header.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 const Header = ()=>{
     let [visibility, setVisibility] = useState(false);
@@ -29,10 +28,10 @@ const Header = ()=>{
                     <section className="header-nav">
                         <nav>
                             <ul className={`pages-nav ${show}`}>
-                                <Link to="/portfolio"><li>home</li></Link>
-                                <Link to="/Projects"><li>Projects</li></Link>
-                                <Link to="/skills"><li>skills</li></Link>
-                                <Link to="/contact"><li>contact</li></Link>
+                                <a href="#portfolio"><li>home</li></a>
+                                <a href="#projects"><li>Projects</li></a>
+                                <a href="#about"><li>about</li></a>
+                                <a href="#contact"><li>contact</li></a>
                             </ul>
                             <span onClick={handleNavList} className="bar"><FontAwesomeIcon  icon={faBars}/></span>
                         </nav>

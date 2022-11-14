@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    color: var(--light);
+    font-size: 40px;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+.title p{
+    color: var(--gray-light);
+    max-width: 500px;
+    text-align: center;
+}

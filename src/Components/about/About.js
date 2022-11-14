@@ -1,9 +1,9 @@
 import React, { Fragment,  useContext,  useState} from "react";
-import Header from "../home/header/Header";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHandPointer} from "@fortawesome/free-solid-svg-icons"
 import {projectsContext} from "../context/DataContext"
 import "./About.css"
+import PagesTitle from "../pages-title/PagesTitle";
 
 const About = ()=>{
     const {skills} = useContext(projectsContext);
@@ -13,8 +13,9 @@ const About = ()=>{
 
     return(
         <Fragment>
-            <Header  />
-                <div className="container about">
+            <section id="about" className="about">
+            <PagesTitle title = "about"  paragraph = "I am a MERN stack developer with an eye for design, I specialize in building systems and applications focused websites, I like to contribute with designing pages to better reflect the design ,edit and building large projects" />
+                <div className="container about-content">
                     <div className="dynamic-skills">
                         <div  className = {`skill-box ${myShow}`}>
                             {
@@ -23,7 +24,7 @@ const About = ()=>{
                                 )
                             }
                         </div>
-                        <button onClick={(e)=>{e.currentTarget.style.top = "-80%"; handleClick()}}
+                        <button onClick={(e)=>{e.currentTarget.style.top = "-10000px"; handleClick()}}
                             className="btn-show"><FontAwesomeIcon icon={faHandPointer}/>skills</button>
                     </div>
                     <ul className={`another-skills ${myShow}`}>
@@ -41,6 +42,7 @@ const About = ()=>{
                     </ul>
                     <h6 className={`adobe ${myShow}`}>I have experience with adobe photoshop (2006-2012)</h6>
                 </div>
+            </section>
         </Fragment>
     )
 }

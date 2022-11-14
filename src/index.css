@@ -8,12 +8,22 @@ html {
   scroll-behavior: smooth;
 }
 :root{
-  --dark-background: #20232a;
+    --dark-bg: #160a2d;
+    --light-bg: #211141;
+    --main-blue: #4937f0;
+    --second-blue: #653cf0;
+    --main-move: #9244f0;
+    --second-move: #b35ed3;
+    --second-orange: #eeb378;
+    --orange-star: #f67f03;
+    --white: #ffffff;
+    --light: #f1f5f9;
+    --gray: #a1a1a1;
+    --gray-light: #bdbdbd;
+  /* --dark-background: #20232a;
   --main-color: #171a53;
   --second-color: #1c2fc5;
-  --blue-light: #83aeff;
-  --light: #f9f9f9;
-  --gray: #a1a1a1;
+  --blue-light: #83aeff; */
 }
 body {
   margin: 0;

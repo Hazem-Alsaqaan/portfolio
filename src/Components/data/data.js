@@ -71,6 +71,18 @@ const skills = [
         id: 5,
         title: "BootStrap",
     },
+    {   
+        id: 6,
+        title: "node-js",
+    },
+    {   
+        id: 7,
+        title: "mongo-db",
+    },
+    {   
+        id: 8,
+        title: "express",
+    },
 ];
 
 export  {projects, skills};
