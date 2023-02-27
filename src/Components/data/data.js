@@ -18,7 +18,7 @@ const projects = [
     {
         id: 2,
         codeUrl: "https://github.com/Hazem-Alsaqaan/facebook",
-        webSitUrl: "https://www.youtube.com/watch?v=12gIK4w-oh0",
+        webSitUrl: "http://scared-school.surge.sh/",
         Poster: facebook,
         projectTitle: "Social App"
     },
