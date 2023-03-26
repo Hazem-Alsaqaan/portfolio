@@ -1,60 +1,52 @@
-import NOTFLIX from "./img/NOTFLIX-.png"
-import third from "./img/third.png"
-import agenda from "./img/agenda-surge-sh.png"
-import memoryGame from "./img/memory-game.png"
-import bookStore from "./img/bookstore.png"
-import ecommerceImg from "./img/ecommerce.png"
-import facebook from "./img/facebook.png"
-
 
 const projects = [
     {
         id: 1,
         codeUrl: "https://github.com/Hazem-Alsaqaan/agenda_backend",
         webSitUrl: "http://public-agenda.surge.sh/",
-        Poster: agenda,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1678583336/projects/agenda-surge-sh_tnznwm.png",
         projectTitle: "Agenda"
     },
     {
         id: 2,
         codeUrl: "https://github.com/Hazem-Alsaqaan/facebook",
         webSitUrl: "http://scared-school.surge.sh/",
-        Poster: facebook,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1678583346/projects/facebook_lbh0xx.png",
         projectTitle: "Social App"
     },
     {
         id: 3,
         codeUrl: "https://github.com/Hazem-Alsaqaan/ecommerce",
         webSitUrl: "https://hazem-alsaqaan.github.io/ecommerce/",
-        Poster: ecommerceImg,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1679840870/projects/ecommerce_tcez0c.png",
         projectTitle: "Ecommerce"
     },
     {
         id: 4,
         codeUrl: "https://github.com/Hazem-Alsaqaan/NOTFLIX",
         webSitUrl: "https://hazem-alsaqaan.github.io/NOTFLIX/",
-        Poster: NOTFLIX,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1679841066/projects/NOTFLIX-_gbertm.png",
         projectTitle: "Movies & Series"
     },
     {
         id: 5,
         codeUrl: "https://github.com/Hazem-Alsaqaan/bookstore",
         webSitUrl: " https://hazem-alsaqaan.github.io/bookstore/",
-        Poster: bookStore,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1679840919/projects/bookstore_khpfzg.png",
         projectTitle: "BookStore"
     },
     {
         id: 6,
         codeUrl: "https://github.com/Hazem-Alsaqaan/third-test-",
         webSitUrl: "https://hazem-alsaqaan.github.io/third-test-/",
-        Poster: third,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1679841084/projects/third_vnkaxw.png",
         projectTitle: "Gallery"
     },
     {
         id: 7,
         codeUrl: "https://codepen.io/hazem-alsaqaan/pen/OJvPzZO",
         webSitUrl: "https://codepen.io/hazem-alsaqaan/full/OJvPzZO",
-        Poster: memoryGame,
+        Poster: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1679841105/projects/memory-game_nbnejw.png",
         projectTitle: "Memory Game"
     },
 ]
