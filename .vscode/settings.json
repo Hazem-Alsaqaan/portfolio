@@ -1,0 +1,5 @@
+{
+    "search.useParentIgnoreFiles": false,
+    "git.enabled": true,
+    "git.enableSmartCommit": false
+}
