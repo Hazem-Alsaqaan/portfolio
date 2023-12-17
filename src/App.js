@@ -14,7 +14,7 @@ function App() {
     <Fragment>
       <Routes>
         <Route
-          path="/"
+          path="/portfolio"
           element={
             <div className="App">
               <Header />
