@@ -25,7 +25,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/app-ads.txt" element={<AdsMobRedirect />} />
+        <Route path="/portfolio/app-ads.txt" element={<AdsMobRedirect />} />
       </Routes>
     </Fragment>
   );
