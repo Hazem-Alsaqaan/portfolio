@@ -1,22 +1,32 @@
-import React, { Fragment } from 'react';
-import './App.css';
-import Home from './Components/home/Home';
-import Projects from './Components/projects/Projects';
-import About from './Components/about/About';
-import Contact from './Components/contact/Contact';
+import React, { Fragment } from "react";
+import "./App.css";
+import Home from "./Components/home/Home";
+import Projects from "./Components/projects/Projects";
+import About from "./Components/about/About";
+import Contact from "./Components/contact/Contact";
 // import NotFound from './Components/not found/NotFound';
-import Header from "./Components/header/Header"
+import Header from "./Components/header/Header";
+import { Routes, Route } from "react-router-dom";
+import AdsMobRedirect from "./Components/AdsMobRedirect";
 
 function App() {
   return (
     <Fragment>
-        <div className="App">
-                <Header />
-                <Home />
-                <Projects />
-                <About />
-                <Contact />
-        </div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="App">
+              <Header />
+              <Home />
+              <Projects />
+              <About />
+              <Contact />
+            </div>
+          }
+        />
+        <Route path="app-ads.txt" element={<AdsMobRedirect />} />
+      </Routes>
     </Fragment>
   );
 }
