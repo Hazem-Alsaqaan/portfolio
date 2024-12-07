@@ -26,11 +26,11 @@ const projects = [
   },
   {
     id: 4,
-    codeUrl: "https://github.com/Hazem-Alsaqaan/facebook",
-    webSitUrl: "http://scared-school.surge.sh/",
+    codeUrl: "https://github.com/Hazem-Alsaqaan/alshimaa",
+    webSitUrl: "https://alshimaa.vercel.app/",
     Poster:
-      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1678583346/projects/facebook_lbh0xx.png",
-    projectTitle: "Social App",
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1729555515/hooktech/alshimaaProject_ka6r0q.png",
+    projectTitle: "Alshimaa",
   },
   {
     id: 5,
